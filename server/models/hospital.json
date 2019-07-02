@@ -1,0 +1,28 @@
+{
+  "name": "Hospital",
+  "plural": "Hospitals",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "adrress": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
